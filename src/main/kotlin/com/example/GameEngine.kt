@@ -200,7 +200,7 @@ class GameEngine() {
         return distanceToEnemy <= min(
             friendlyCharacterUnit.moves,
             availableMoves
-        ) + 1
+        )
     }
 
     fun canAttackUnit(attacksLeft: Int, friendly: CharacterUnit, enemy: CharacterUnit): Boolean {
